@@ -3,3 +3,7 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.just-right {
+  justify-content: flex-end;
+}
