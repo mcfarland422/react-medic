@@ -85,8 +85,17 @@ www.michael-mcfarland.com
   width: 100%;
   background-size: cover;
   background-position: center center;
-  background-repeat: no-repeat;
-  padding-top: 200px; }
+  background-repeat: no-repeat; }
+
+.color-white {
+  color: white; }
+
+.color-black {
+  color: black; }
+
+.proudly-serving {
+  padding-top: 10px;
+  padding-bottom: 95px; }
 
 /********************************/
 /*       Fade Bs-carousel       */
@@ -108,5 +117,56 @@ www.michael-mcfarland.com
 /********************************/
 .just-right {
   justify-content: flex-end; }
+
+/* Contact */
+section#contact-contact {
+  background-image: url("../img/map-image.png");
+  background-repeat: no-repeat;
+  background-position: center; }
+
+section#contact-contact .section-heading {
+  color: #000; }
+
+section#contact-contact .form-group {
+  margin-bottom: 25px; }
+
+section#contact-contact .form-group input,
+section#contact-contact .form-group textarea {
+  padding: 20px; }
+
+section#contact-contact .form-group input.form-control {
+  height: auto; }
+
+section#contact-contact .form-group textarea.form-control {
+  height: 248px; }
+
+section#contact-contact .form-control:focus {
+  border-color: #fed136;
+  box-shadow: none; }
+
+section#contact-contact ::-webkit-input-placeholder {
+  font-weight: 700;
+  color: #ced4da;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+
+section#contact-contact :-moz-placeholder {
+  font-weight: 700;
+  color: #ced4da;
+  /* Firefox 18- */
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+
+section#contact-contact ::-moz-placeholder {
+  font-weight: 700;
+  color: #ced4da;
+  /* Firefox 19+ */
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+
+section#contact-contact :-ms-input-placeholder {
+  font-weight: 700;
+  color: #ced4da;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+
+#contact-contact {
+  padding: 40px 20px 40px 20px; }
 
 /*# sourceMappingURL=style.css.map */
