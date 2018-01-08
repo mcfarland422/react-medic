@@ -19,8 +19,16 @@ www.michael-mcfarland.com
   background-color: rgba(255, 255, 255, 0.7); }
 
 .bike-hero {
-  position: absolute;
   z-index: 3; }
+
+.bike-hero img {
+  margin-top: 10%; }
+
+.bike-font {
+  font-family: 'Bowlby One'; }
+
+.bike-red {
+  color: #CA2E37; }
 
 .bike-slides {
   height: 100vh;
@@ -80,11 +88,33 @@ www.michael-mcfarland.com
   display: block;
   margin: auto; }
 
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+  /* Support for IE. */
+  font-feature-settings: 'liga'; }
+
 .footer-btm {
   background-image: url(http://michael-mcfarland.com/img/bike-medics/footer-bkgd.png);
   width: 100%;
-  background-size: cover;
-  background-position: center center;
+  background-size: contain;
+  background-position: center bottom;
   background-repeat: no-repeat; }
 
 .color-white {
