@@ -4,9 +4,18 @@ v 1.0
 Author: Michael McFarland
 www.michael-mcfarland.com
 */
-.carousel {
+.carousel-hero {
   position: relative;
   height: 100vh; }
+
+.bike-leaves {
+  height: 400px;
+  background-image: url(http://michael-mcfarland.com/img/bike-medics/bike-leaves-back.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: 20px; }
 
 .carousel .carousel-inner .bike-item {
   height: 100vh; }
@@ -115,7 +124,8 @@ www.michael-mcfarland.com
   width: 100%;
   background-size: contain;
   background-position: center bottom;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  margin-top: 20px; }
 
 .color-white {
   color: white; }
@@ -127,27 +137,21 @@ www.michael-mcfarland.com
   padding-top: 10px;
   padding-bottom: 95px; }
 
+.hour-box {
+  background-color: #e1e3e4;
+  width: 60%;
+  box-shadow: #000 0px 2px 4px;
+  border-radius: 15px;
+  margin-top: 30px;
+  padding: 16px; }
+
+.hour-con {
+  display: flex;
+  justify-content: center; }
+
 .bike-darkblue {
   color: #314e75; }
 
-/********************************/
-/*       Fade Bs-carousel       */
-/********************************/
-/********************************/
-/*          Hero Headers        */
-/********************************/
-/********************************/
-/*            Overlay           */
-/********************************/
-/********************************/
-/*          Custom Buttons      */
-/********************************/
-/********************************/
-/*       Slides backgrounds     */
-/********************************/
-/********************************/
-/*          Media Queries       */
-/********************************/
 .just-right {
   justify-content: flex-end; }
 
@@ -201,5 +205,82 @@ section#contact-contact :-ms-input-placeholder {
 
 #contact-contact {
   padding: 40px 20px 40px 20px; }
+
+.bike-icons {
+  font-size: 100px;
+  text-shadow: #000 -3px 1px 4px; }
+
+.work-container {
+  margin-top: 30px; }
+
+.bike-shadow {
+  -webkit-box-shadow: 0px 3px 12px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 3px 12px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.75); }
+
+.bike-leaves {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.par-exp {
+  color: white;
+  padding: 20px; }
+
+.nav-phone {
+  position: absolute;
+  left: -26px;
+  bottom: 10px; }
+
+.h2-repair-sales {
+  text-shadow: #615f5f 0px 2px 4px; }
+
+#bike-form {
+  background-color: #304F73;
+  color: white;
+  padding: 30px 10px;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.75);
+  margin-bottom: 30px;
+  margin-top: 30px; }
+
+#MedicsCarousel {
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.75); }
+
+.service-checks {
+  margin-top: 40px; }
+
+.red-shadow {
+  text-shadow: 0px 4px 6px #CA2E37; }
+
+#find-us {
+  margin: 60px 0 80px 0; }
+
+.pad-icon {
+  margin: 30px 0; }
+
+.serve-row {
+  margin: 0px 0px;
+  padding: 0px 0px; }
+
+.serve-box {
+  margin: 0px 0px;
+  padding: 0px 0px; }
+
+.biker-flex {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%; }
+
+.info-checks {
+  color: #CA2E37; }
+
+@media only screen and (max-width: 495px) {
+  .dis-phone {
+    display: none; } }
+@media only screen and (max-width: 800px) {
+  .footer-btm {
+    background-size: cover; } }
 
 /*# sourceMappingURL=style.css.map */
